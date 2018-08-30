@@ -1,0 +1,4 @@
+SQL> create table HREMP(empno number(10) primary key,ename varchar2(20),eadd varchar2(20));
+
+
+SQL> create table FinanceEMP(empno number(10) primary key,ename varchar2(20),eadd varchar2(20),salary number(10,2));

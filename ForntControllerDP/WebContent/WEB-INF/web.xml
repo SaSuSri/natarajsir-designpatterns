@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>front</servlet-name>
+    <servlet-class>com.nt.controller.FrontControllerServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>front</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+</web-app>
